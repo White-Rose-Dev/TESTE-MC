@@ -1,0 +1,10 @@
+{
+  "name": "Minecraft Server",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "forwardPorts": [8443],
+  "portsAttributes": { "8443": { "protocol": "https" } },
+  "postStartCommand": "bash start.sh"
+}
