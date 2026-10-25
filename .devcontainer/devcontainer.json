@@ -5,6 +5,7 @@
     "ghcr.io/devcontainers/features/docker-in-docker:2": { "moby": false }
   },
   "forwardPorts": [8443],
+  "otherPortsAttributes": { "onAutoForward": "ignore" },
   "portsAttributes": {
     "8443": { "protocol": "https", "label": "Crafty", "onAutoForward": "openBrowser" }
   },
