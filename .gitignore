@@ -2,3 +2,7 @@ crafty/data/
 *.toml
 playit/playit-agent
 playit/playit-cli
+crafty/data/
+playit/playit-agent
+playit/playit-cli
+*.toml
