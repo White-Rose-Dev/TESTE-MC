@@ -1,2 +1,4 @@
 crafty/data/
 *.toml
+playit/playit-agent
+playit/playit-cli
